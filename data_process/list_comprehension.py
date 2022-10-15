@@ -1,3 +1,6 @@
+from dataclasses import astuple
+
+
 list =[]
 for i in range(1,21):
     if(i%2==0):
@@ -17,3 +20,5 @@ print(list)
 
 list=[(i,f(i)) for i in range(1,21) if i%2==0]
 print(list)
+
+
